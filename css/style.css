@@ -1,7 +1,8 @@
 html,body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+overflow: hidden;
+
 }
 
 
@@ -19,13 +20,20 @@ h1{
     color: #ffffff;
 }
 
+#nextScreenLogo{
+    text-align: center;
+    font-size: 2.5em;
+}
+
 #Logo{
     text-align: center;
     font-size: 4em;
+ 
     
 }
 
 #home_button{
+    
    margin-left: 42%;
     border-radius: 100px;
     border: 3px solid #3a0a18;
@@ -57,7 +65,38 @@ h1{
     height: 100vh;
 }
 
+.copyrightBox{
+    position: fixed;
+    top: 2px;
+    border-right: 1px solid #202530;
+  height: 600px;
+  width: 15vw;
+}
 
+.top-part{
+    background-color:#0b1522;
+    width: 100%;
+    height: 60px;
+}
+
+.top-part .copyrightBox h5{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #525f78;
+}
+
+header{
+    position: fixed;
+    border-bottom: 1px solid #202530;
+    display: none;
+}
+
+header H1 {
+    position:fixed;
+    right: 45%;
+    bottom: 88%;
+    
+}
 
 footer{
     border-top: 1px solid #202530;
@@ -70,6 +109,41 @@ justify-content: space-around;
 
 footer .copyright{
     margin-left: 2px;
+}
+
+aside  {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 10vh;
+    width: 15vw;
+    height: calc(100% - 10vh);
+    
+    color:#FFF;
+   
+    text-align: center;
+    border-right: 1px solid #202530;
+}
+
+aside h4{
+    margin-top: 20%;
+    font-weight: 200;
+   
+}
+
+aside button{
+    width: 125px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(40deg,#f20044,#b64867 );
+    color: white;
+    border-radius: 100px;
+    border: 2.5px solid #470b1c;
+    box-shadow: 0 0 0 0 rgb(86 201 170 / 70%);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    text-transform: uppercase;
 }
 
 
