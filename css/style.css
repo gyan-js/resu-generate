@@ -146,6 +146,58 @@ aside button{
     text-transform: uppercase;
 }
 
+.main-content2{
+    
+    background-color:#FFF;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 15.2%;
+    top: 14.8%;
+    background-color:transparent;
+   
+    
+}
+
+.generate-section{
+    display: none;
+    position: fixed;
+    top: 9.8%;
+    border-right: 1px solid #202530;
+    
+    background-color: transparent;
+    height: 100%;
+    width: 45%;
+}
+
+
+
+h4{
+   position: relative;
+   cursor: pointer;
+}
+
+h4:hover{
+    color: #ff3678;
+}
+
+h4::after{
+    margin-left: 25%;
+    content: "";
+    position: absolute;
+    background: linear-gradient( to right, #ff0055, #fff);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    align-self: center;
+}
+
+h4:hover::after{
+    width: 50%;
+    transition : width 1s;
+}
+
 
 
 hr{
@@ -154,6 +206,12 @@ hr{
 
 p{
     cursor: pointer;
+}
+
+@media screen and (max-width: 400px){
+    p{
+        font-size: 1em;
+    }
 }
 
 
